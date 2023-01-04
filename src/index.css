@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: teal;
+}
+
+.active-categories {
+  background-color: teal !important;
+  color: white !important;
+}
+
+.btn-back-to-shop,.btn-pay,.btn-qty,.btn-edit {
+  background-color: teal !important;
+}
+
+/* Style Responsive */
+@media only screen and (max-height: 1000px) {
+  .shopping-cart {
+    height: 380px;
+  }
+  
+  /* .menus {
+    height: 800px;
+  } */
+}
+
+/* .overflow-auto::-webkit-scrollbar {
+  display: none;
+} */
+/* End */
+
+/* Style Mode Malam */
+/*html,body {
+  background-color: black !important;
+  color: white !important;
+}*/
+
+.menus {
+  color: black !important;
+}
+
+.cart-modal {
+  color: black !important;
+}
+/* End */
